@@ -3,7 +3,7 @@ package model;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class MenuPricipal {
     private static final PessoaFisicaRepo pessoaFisicaRepo = new PessoaFisicaRepo();
     private static final PessoaJuridicaRepo pessoaJuridicaRepo = new PessoaJuridicaRepo();
     private static final Scanner scanner = new Scanner(System.in);
@@ -207,3 +207,4 @@ public class Main {
         }
     }
 }
+
